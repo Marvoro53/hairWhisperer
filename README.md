@@ -2,7 +2,7 @@
 
 ## General info
 This project is a final for Web Class
-``
+##
 Author: Marvin Lara
 	
 ## Technologies
