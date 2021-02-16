@@ -11,4 +11,4 @@ Project is created with:
 	
 ## Setup
 To run this project, clone it at
-<a hrfe="https://github.com/Marvoro53/hairWhisperer.git">hairWhisperer</a>
+[hairWhisperer](https://github.com/Marvoro53/hairWhisperer.git)
