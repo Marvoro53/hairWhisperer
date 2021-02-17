@@ -38,8 +38,12 @@
   }
 }
 /*styling*/
-
-.one{
+.body{
+  background-color: #FAF0F1;
+}
+/*Images*/
+.one{ 
+  float: right;
   margin: 30px 30px;
   background-color: #FAF0F1;
   border: solid black 5px;
@@ -47,6 +51,7 @@
   position: left;
 }
 .two{
+  float: left;
   margin: 30px 30px;
   background-color: #FAF0F1;
   border: solid black 5px;
@@ -55,6 +60,7 @@
 
 .form {
   max-width: 550px;
+  font-size: 15px;
   margin: 100px auto;
   padding: 16px;
   border: 2px solid #333333;
@@ -62,6 +68,8 @@
   text-align: left;
 }
 .Reviews{
+  position: relative;
+  width: 80%;
   margin: 30px 30px;
   border: solid black 3px;
   color: black;
@@ -73,8 +81,16 @@ a{
   list-style: none;
   text-decoration: none;
 }
-
+.iframe{
+  margin: 10px 10px;
+  border: solid 5px;
+  box-shadow: white 10px 10px 10px;
+}
 /*text*/
 h1{
   font-family: 'Times New Roman', Times, serif;
+}
+p{
+  text-align: center;
+  text-shadow: white 3px 3px 3px;
 }
