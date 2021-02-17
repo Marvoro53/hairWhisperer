@@ -5,12 +5,12 @@ import Intro from './Components/Intro';
 import Images from './Components/Images';
 // import Contact from './Components/Contact';
 // import Reviews from './Components/Reviews'
-import Navbarr from './Components/Navbar'
+import Navbar from './Components/Navbar'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbarr />
+        <Navbar />
         <HomepageImage />
         <p>
         My Fingers whisper to the hair and makes it grow..  
@@ -21,8 +21,8 @@ function App() {
     </div>
       </header>
       <Images />
-      {/* <Contact />
-      <Reviews /> */}
+      {/* <Contact /> */}
+      {/* <Reviews /> */}
     </div>
   );
 }

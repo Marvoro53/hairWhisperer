@@ -26,7 +26,7 @@ class CommentBox extends React.Component {
       
       return(
         <div className="comment-box">
-          <h2>Join the Discussion!</h2>
+          <h2>Leave a comment!</h2>
           <CommentForm addComment={this._addComment.bind(this)}/>
           <button id="comment-reveal" onClick={this._handleClick.bind(this)}>
             {buttonText}

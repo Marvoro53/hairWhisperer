@@ -40,7 +40,6 @@
 /*styling*/
 
 .one{
-  float: left;
   margin: 30px 30px;
   background-color: #FAF0F1;
   border: solid black 5px;
@@ -48,7 +47,6 @@
 
 }
 .two{
-  float: right;
   margin: 30px 30px;
   background-color: #FAF0F1;
   border: solid black 5px;
@@ -63,12 +61,8 @@
   background-color: #bcd8c1;
   text-align: left;
 }
-
-a{
-  text-decoration: none;
+.Reviews{
+  margin: 30px 30px;
+  border: solid black 3px;
   color: black;
-}
-.Navbar{
-  list-style-type: none;
-  display: block;
 }
