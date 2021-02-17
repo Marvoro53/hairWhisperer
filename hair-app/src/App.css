@@ -44,7 +44,7 @@
   background-color: #FAF0F1;
   border: solid black 5px;
   box-shadow: black 7px 7px 7px;
-
+  position: left;
 }
 .two{
   margin: 30px 30px;
@@ -65,4 +65,16 @@
   margin: 30px 30px;
   border: solid black 3px;
   color: black;
+}
+.nabvar{
+  margin: 10px 10px;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+}
+
+/*text*/
+h1{
+  font-family: 'Times New Roman', Times, serif;
 }

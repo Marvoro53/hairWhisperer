@@ -1,18 +1,16 @@
 import React from 'react';
 
-class Navbar extends React.Component{
-  render() {
-      return (
-          <div>
-            <ul id="nav">
-              <li><a href="">Home</a></li>
-              <li><a href="">Images</a></li>
-              <li><a href="">Contact me!</a></li>
-            </ul>
-          </div>
-      );
+function Navbar(){
+  return(
+  <>
+  <nav className="nabvar">
+      <a href="/">Home </a>
+      <a href="/Images"> Images</a>
+      <a href="/Contact"> Contact</a>
+  </nav>
+      </>
+  )
+  
   }
-}
-
-
-export default Navbar
+  
+  export default Navbar;
